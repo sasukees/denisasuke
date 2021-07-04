@@ -1,4 +1,3 @@
-jobs:
 name: FreeRDP
 
 on: workflow_dispatch
